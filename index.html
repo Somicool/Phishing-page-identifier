@@ -1,0 +1,23 @@
+<!-- Full HTML + Flask backend phishing detection website using URLScan.io -->
+
+<!-- index.html -->
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Detector</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 100px; }
+        input[type=text] { width: 300px; padding: 10px; font-size: 16px; }
+        button { padding: 10px 20px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Phishing Page Detector</h1>
+    <form action="/check" method="POST">
+        <input type="text" name="url" placeholder="Enter a URL" required />
+        <button type="submit">Check URL</button>
+    </form>
+</body>
+</html>
+

@@ -7,3 +7,4 @@ Easy to test with real or sample URLs
 Output includes risk level and key indicators
 
 Installation
+https://github.com/Somicool/Phishing-page-identifier.git
